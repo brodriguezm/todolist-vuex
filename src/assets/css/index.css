@@ -1,0 +1,60 @@
+html{
+    /* background-color: linear-gradient(#35495e, #41b883); */
+    background-color: #cccccc4d;
+}
+
+div#app{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 50px;
+    padding-top: 30px;
+    min-height: 600px;
+    -webkit-box-shadow: 0px 7px 48px -14px rgba(0,0,0,0.62);
+    -moz-box-shadow:0px 7px 48px -14px rgba(0,0,0,0.62);
+    box-shadow: 0px 7px 48px -14px rgba(0,0,0,0.62);
+}
+
+h4{
+    text-align: center;
+}
+
+.text-completed{
+    text-decoration: line-through;
+    color: #26a69a;
+}
+
+.card-list{
+    border-radius: 10px;
+    min-height: 85px!important;
+    -webkit-box-shadow: 0px 7px 35px -8px rgba(0,0,0,0.62);
+    -moz-box-shadow:0px 7px 35px -8px rgba(0,0,0,0.62);
+    box-shadow: 0px 7px 35px -8px rgba(0,0,0,0.62);
+}
+
+.card-list p{
+    cursor: pointer;
+    color: #000;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card-list p:nth-child(even){
+    background-color: rgba(242,242,242,0.5); 
+}
+
+.card-list p:nth-child(old){
+    background-color: #fff; 
+}
+
+.tareas{
+    font-size: 1.5em;
+}
+
+.check{
+    cursor:pointer;
+    color: green;
+}
